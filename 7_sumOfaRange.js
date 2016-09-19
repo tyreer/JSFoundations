@@ -1,13 +1,22 @@
 "use strict"
 
-function arrayMaker(start, end, step) {
+function arrayMaker(start, end) {
     var arrayMade =[];
+    
+    //Set default step value
+    var step = 1;
+    
+    //Reasign step value if the optional third argument is present
+    if (arguments[2]) {
+        step = Math.abs(arguments[2]);
+    }
+    
     if (start < end){
-        for (var i=start; i<=end ; i += step){
+        for (var i=start; i<=end ; i+=step){
             arrayMade.push(i);
         }
     } else {
-        for (var i=start; i>=end ; i += step){
+        for (var i=start; i>=end ; i-=step){
             arrayMade.push(i);
         }
     }
@@ -22,5 +31,5 @@ function sumMaker(arrayToSum){
     return sum;
 }
 
-// console.log(sumMaker(arrayMaker(1,10)));
-console.log(arrayMaker(5, 2, -1));
+console.log(sumMaker(arrayMaker(1,10)));
+console.log(arrayMaker(10, 2));

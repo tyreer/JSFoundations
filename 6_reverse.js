@@ -1,6 +1,6 @@
 "use strict"
 
-var arrayValue = [1, 2, 3, 4];
+var arrayValue = [1, 2, 3, 4, 5];
 
 function reverseArray(inputArray) {
    var outputArray=[];

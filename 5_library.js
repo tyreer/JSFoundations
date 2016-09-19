@@ -20,7 +20,7 @@ var library = [
 function checkIfRead(libraryData) {
     
     for (var i = 0; i < libraryData.length; i++) {
-        libraryData[i].readingStatus ?  console.log("You've read: " +  libraryData[i].title + " by " + libraryData[i].author) : console.log("You haven't read: " +  libraryData[i].title + " by " + libraryData[i].author);
+        libraryData[i].readingStatus ? console.log("You've read: " +  libraryData[i].title + " by " + libraryData[i].author) : console.log("You haven't read: " +  libraryData[i].title + " by " + libraryData[i].author);
     }
 }
 
