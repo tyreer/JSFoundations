@@ -1,12 +1,13 @@
 "use strict"
 
+//Online routine data structure 
 var myOnlineRoutine = {
 	time: "5 minutes",
 	useful: false,
 	platforms: ["New York Times", "Pitchfork", "Snapchat"]
 };
 
-//TriMe API
+//TriMet data structure 
 var triMetRunningVehicles = {
     bus: {
         line35: [
