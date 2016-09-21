@@ -18,7 +18,16 @@ This is a collection of JavaScript applications from the JavaScript Foundations 
 
 9_vectors.js contains a constructor, Vector, that represents a vector in two-dimensional space. It takes x and y parameters (numbers), which it saves to properties of the same name. The Vector prototype has two methods, plus and minus, that take another vector as a parameter and return a new vector that has the sum or difference of the two vectors’ x and y values.
 
-10_nativeMethod.js is an exercise in adding a new native method that any string can use. While this is NOT a good idea in the real world, it is an insightful illustration of inheritance chains leading back to types. The Repeatify function on the String object accepts an integer that specifies how many times the string has to be repeated. The function returns the string repeated the number of times specified. The application also tests whether the Repeatify function already exists before creating it to model avoiding overwriting a built-in method like "length".  
+10_nativeMethod.js is an exercise in adding a new native method that any string can use. While this is NOT a good idea in the real world, it is an insightful illustration of inheritance chains leading back to types. The Repeatify function on the String object accepts an integer that specifies how many times the string has to be repeated. The function returns the string repeated the number of times specified. The application also tests whether the Repeatify function already exists before creating it to model avoiding overwriting a built-in method like "length". See also: https://www.sitepoint.com/5-typical-javascript-interview-exercises/
+
+11_personStudentInialize.js contains three constructor functions (Person, Student, Teacher) and uses the "call" method to chain the constructors. The initialize method is included to avoid passing name and age paratemers between prototypes. 
+
+12_monthNames.js is an exercise in using a module design pattern. It contains a simple module that can convert month numbers to names and can convert names back to numbers. The module has its own namespace since it needs an internal array of month names and uses plain JavaScript, without any module loader system. Worth noting that the month numbers are not zero-based, as in the Date type.
+
+13_phoneModule.js is another exercise in the module design pattern. I wrapped the code of a previous phone purchasing exercise in a module and exposed the various helper functions as methods to create a basic JavaScript library for this application.
+
+14_classToolbox.js is again a practice in the module design pattern. It contains a little library for some of the various functions created in class, such as isEven, isPrime, and min.
+
 
 
 
