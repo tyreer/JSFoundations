@@ -28,6 +28,6 @@ This is a collection of JavaScript applications from the JavaScript Foundations 
 
 14_classToolbox.js is again a practice in the module design pattern. It contains a little library for some of the various functions created in class, such as isEven, isPrime, and min.
 
+15_ajax contains several files used for AJAX requests practice. app.js is the first iteration. It includes three AJAX requests for text, HTML and JSON data. appHTMLDom.js is the second iteration refactored to breaks out a helper function for the XMLHttpRequest code. While this would all commonly be done using jQuery, the focus of this course was vanilla JavaScript and excluded jQuery.
 
-
-
+16_buttonTimeout is an exercise in creating closure by using an IIFE within a for loop to assign each button a timeout value.
