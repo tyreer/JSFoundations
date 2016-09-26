@@ -77,35 +77,3 @@ function targetJSONButton() {
 }
 
 targetJSONButton();
-
-// ***************************************
-// Works! But illogical because this loads the Ajax request even if it's not necessary.
-
-// 'use strict'
-
-// //Define Ajax requests
-// var textRequest = new XMLHttpRequest();
-// textRequest.addEventListener("load", targetTxtButton);
-// textRequest.open("GET", "text.txt");
-// textRequest.send();
-
-// // var htmlRequest = new XMLHttpRequest();
-// // htmlRequest.addEventListener("load", targetHtmlButton);
-// // htmlRequest.open("GET", "html.html");
-// // htmlRequest.send();
-
-// function targetTxtButton() {
-// 	document.getElementById("loadtext").addEventListener("click", loadText);
-	
-// 	function loadText(){
-// 	    this.innerHTML = textRequest.responseText;
-// 	}
-// }
-
-// function targetHtmlButton() {
-// 	document.getElementById("loadhtml").addEventListener("click", loadHtml);
-	
-// 	function loadHtml(){
-// 	    document.getElementById("html").innerHTML = htmlRequest.responseText;
-// 	}
-// }
