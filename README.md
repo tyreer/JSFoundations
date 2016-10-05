@@ -31,3 +31,6 @@ This is a collection of JavaScript applications from the JavaScript Foundations 
 15_ajax contains several files used for AJAX requests practice. app.js is the first iteration. It includes three AJAX requests for text, HTML and JSON data. appHTMLDom.js is the second iteration refactored to breaks out a helper function for the XMLHttpRequest code. While this would all commonly be done using jQuery, the focus of this course was vanilla JavaScript and excluded jQuery.
 
 16_timeoutButtons is an exercise in creating closure by using an IIFE within a for loop to assign each button a timeout value.
+
+17_eloquentJS_Rainbow contains an exercise in content negotiation within an HTTP request. The URL eloquentjavascript.net/author is configured to respond with either plaintext, HTML, or JSON, depending on what the client asks for. This application sends a request to fetch each of the various formats of the resource. It uses the setRequestHeader method of the XMLHttpRequest object to set the header named Accept to one of the media types and includes easter egg media type application/rainbows+unicorns.
+
