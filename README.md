@@ -34,3 +34,5 @@ This is a collection of JavaScript applications from the JavaScript Foundations 
 
 17_eloquentJS_Rainbow contains an exercise in content negotiation within an HTTP request. The URL eloquentjavascript.net/author is configured to respond with either plaintext, HTML, or JSON, depending on what the client asks for. This application sends a request to fetch each of the various formats of the resource. It uses the setRequestHeader method of the XMLHttpRequest object to set the header named Accept to one of the media types and includes easter egg media type application/rainbows+unicorns.
 
+18_ReliableMultiply contains two JavaScript apps that wrap an intentionally error prone function, primitiveMultiply, and run it until a call succeeds, after which they return the result. reliableMultiplyCustom is a practice in creating a new type of error rather than throwing a generic error. Both apps utilize try...catch as an error handling technique.
+
