@@ -36,3 +36,4 @@ This is a collection of JavaScript applications from the JavaScript Foundations 
 
 18_ReliableMultiply contains two JavaScript apps that wrap an intentionally error prone function, primitiveMultiply, and run it until a call succeeds, after which they return the result. reliableMultiplyCustom is a practice in creating a new type of error rather than throwing a generic error. Both apps utilize try...catch as an error handling technique.
 
+19_flatten uses the reduce method in combination with the concat method to “flatten” an array of arrays into a single array that has all the elements of the input arrays.
