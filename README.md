@@ -37,3 +37,5 @@ This is a collection of JavaScript applications from the JavaScript Foundations 
 18_ReliableMultiply contains two JavaScript apps that wrap an intentionally error prone function, primitiveMultiply, and run it until a call succeeds, after which they return the result. reliableMultiplyCustom is a practice in creating a new type of error rather than throwing a generic error. Both apps utilize try...catch as an error handling technique.
 
 19_flatten uses the reduce method in combination with the concat method to “flatten” an array of arrays into a single array that has all the elements of the input arrays.
+
+20_characterCounterClosure.js is an exercise in closure. The app creates a closure by passing a function a parameter and executing the function, which simply returns another function. The function that is returned retains the lexical scope with which it was initially executed. The variable countThis is set to the return function of countChar. At the same time, the character to be counted is saved as a parameter of countChar.  countThis() is passed the string that is iterated through in order to add up the number of times the defined search character is found.
